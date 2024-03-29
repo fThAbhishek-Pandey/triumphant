@@ -1,0 +1,160 @@
+body{
+  padding: 0;
+  margin:8px ;
+  font-family: 'Roboto', sans-serif;
+  font-size: 700;
+  font-weight: 700;
+  text-align:justify;
+}
+h1 {
+   font-family: 'Roboto', sans-serif;
+  color: hsl(270, 25%, 91%);
+  background-color: rgb(247, 72, 9);
+  text-transform:uppercase ;
+}
+.location {
+  color: gray;
+  margin-bottom: 160px;
+}
+#navbar {
+  padding: 8px;
+  margin-left: 2px;
+  object-fit: cover;
+  width :5px;
+  height: 130px;
+}
+#about {
+  display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#discription {
+    width: 50%;
+    padding-right: 8px;
+  }
+  #team {
+   width: 50%;
+  }
+#teamimg {
+  width: 100%;
+    padding-top: 15px;
+    object-fit: cover;
+}
+h2{
+    color :#f9f9f9;
+    text-align: center;
+ }
+h3{
+   color  :rgb(247, 72, 9) ;
+   margin-bottom: 0%;
+   margin-top: 2%;
+ }
+ #jobs {
+  /* width: 100%; */
+  max-width:800px;
+ }
+ #job-role {
+   color  :rgb(247, 72, 9) ;
+   margin-top: 0px;
+ }
+ .apply {
+     background-color: rgb(0, 255, 21); 
+     color: white;
+     float :right;
+ }
+ #jobsoppo{
+   background-color: rgb(247, 72, 9);
+ }
+a {
+  text-decoration: none;
+}
+#footer{
+     display: flex;
+     background-color: gray;
+     padding-bottom: 80px;
+     padding-top: 16px;  
+}
+.footerElement {
+  margin-right: 160px;
+  color: white;
+}
+.bootcamponline{
+       display:flex;
+       
+}
+.bootimg{
+  width: 50%;
+}
+.bootcamp{
+  margin: 16px;
+  background-color: rgb(247, 72, 9);
+  padding-left: 4px;
+  padding-bottom: 64px;
+  padding-right: 4px;
+  width: 50%;
+  border-radius: 32px; 
+}
+.coursetest{
+  padding: 16px 16px 16px 16px;
+  width: 50%;
+}
+.bootcampimg {
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right:16px ;
+  padding-bottom: 8px;
+  
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+}
+#job-table{
+  width: 100%;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+#job-table tr:nth-child(odd){
+    color:darksalmon;
+    text-align: center;
+}
+.rows{
+  border: 1px solid gray;
+  padding: 8px;
+  text-align: center;
+
+}
+#head-rows{
+  border:1px solid chartreuse;
+  background-color: red;
+  padding: 8px;
+  text-align: center;
+}
+#application,input,select,textarea{
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.25em;
+  padding: 8px;
+  border-radius: 5px;
+  border: 5px solid rebeccapurple;
+}
+#form{
+  padding: 4px;
+  font-size: 1.5em;
+  margin-top: 4px;
+}
+.form-group{
+   margin: 16px;
+}
+.form-group textarea{
+  width: 80%;
+}
+.form-group input[type="checkbox"]{
+  width: 16px ;
+  height: 16px;
+}
+.form-group input[type="submit"]{
+  background-color: chartreuse;
+  color:#f9f9f9;
+  font-weight: 500;
+  padding: 16px 16px 16px 16px;
+}
