@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for Triumphant Job</title>
+</head>
+<link rel = "stylesheet" href="styles.css">
+<body>
+    <div id = "navbar"><img id="icon" src="media/icon.jpg" alt="icon" style="height:64px;" style="width: 64px;" >
+        <div id="logo"><img src="media/icon.jpg" alt="logo" style="height:32px;" style="width: 32px;">Triumphant</div>
+      </div>
+  <div>
+    <div>
+       <div > <h1 style="text-align : center; color :white">Triumphant </h1></div>
+    </div>
+    <div>
+        <h3 style="color :white"><a href="http://127.0.0.1:5500/index.html">Home</a> </h3>
+    </div>
+ <div id = "application">
+    <h2>Submmit your application </h2>
+    <form id="form"
+    action="https://formbold.com/s/9R8WX" 
+    method="POST"
+    enctype="multipart/form-data"
+    >
+        <div class="form-group">
+            <level for ="name">Full Name*</level><br>
+            <input type = "text" id = "name" name="Full Name" required placeholder="fthAbhishek">
+        </div>
+        <div class="form-group">
+            <level for = "email">Email*</level><br>
+            <input type = "email" id="email" email = "Email" required placeholder="abhishek234@fth.ac.in">
+        </div>
+        <div class="form-group">
+            <label for = "phone">Phone*</label>
+            <input type = "tel" id = "phone" name="phone" required placeholder="+91 9898981343">
+        </div>
+        <div class="form-group">
+            <label for="dob" >Date of Birth*</label>
+            <input type="date" id = "dob" name="dob" required>
+        </div>
+        <div class ="form-group">
+            <label for ="position">Position Applied for* </label>
+            <select>
+                <option value="">--Select one --</option>
+                <option value="fortend developer">Fortend Developer </option>
+                <option value="backend developer">Backend Developer </option>
+                <option value="full stack developer">Full Stack Developer </option>
+            </select>
+        </div>
+        <div  class="form-group">
+            <label for ="resume">Upload Resume*</label>
+            <input type ="file" id ="resume" accept=".pdf ,.doc, .docx" required>
+        </div>
+        <div class ="form-group">
+            <label for ="coverletter"> Cover Letter*</label><br>
+            <textarea id ="coverletter" name ="coverletter" rows="5" required placeholder=" Explain what makes you suitable for job.."></textarea>
+        </div>
+         <div class="form-group">
+             <label for="terms">
+                 <input type ="checkbox" id ="terms" name ="terms" >
+                 I agree with your term and Condition.
+             </label>
+          </div>
+          <div class="form-group">
+          <input type="submit" value="submit application">
+       </div>
+    </form>
+ </div>
+ 
+    <div id = "footer">
+        <a href="http://127.0.0.1:5500/course.html"target="_blank"  class = "footerElement">Course</a>
+        <a href="http://127.0.0.1:5500/course.html"target="_blank"  class = "footerElement">Program</a>
+        <a href="http://www.youtube.com/@fThAapkaAbhishek"target="_blank"  class = "footerElement ">YouTube</a>
+        <a href="https://forms.gle/NrNVWEYVBh8gRPen6" target="_blank"  class = "footerElement"> Feedback </a>
+     </div>
+    
+  
+</body>
+</html>

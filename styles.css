@@ -1,0 +1,266 @@
+/* basic style  mobile*/
+html{
+  font-size:14px;
+}
+body{
+  margin: 8px;
+  padding:8px;
+  font-family: 'Roboto',sans-serif;
+  color: #444444;
+  font-size: 1em;
+}
+h1 {
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+ color: hsl(270, 25%, 91%);
+ background-color: rgb(247, 72, 9);
+ text-transform:uppercase ;
+ padding: 2px;
+ padding-top: 4px;
+ margin-top: 24px;
+ margin-bottom: 8px;
+}
+h2{
+  color :#f9f9f9;
+  text-align: center;
+  padding: 2px;
+  margin: 2px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+h3{
+ color  :rgb(247, 72, 9) ;
+ margin-bottom: 0%;
+ margin-top: 2%;
+ padding: 2px;
+  margin: 2px;
+}
+a{
+  text-decoration: none;
+  color: #3882f6;
+}
+a:hover, a:focus{
+  color: #1d4ed8;
+}
+#navbar {
+  padding: 8px;
+  margin-left: 2px;
+  object-fit: cover;
+  width :5px;
+  height: 36px;
+}
+#icon{
+  display: block;
+}
+#logo {
+  display: none;
+}
+  #about {
+    display: flex;
+    flex-direction: column;
+      max-width: 800px;
+      margin: 0 auto;
+  }
+  #teamimg {
+     width: 576px;
+     height: 400px;
+     padding:0px;
+     margin: 0px;
+     object-fit:contain;
+    }
+    #discription {
+      font-size: 1em;
+      padding-right: 4px;
+      padding:0px;
+      margin: 0px;
+    }
+    .location {
+      color: gray;
+      margin-bottom: 160px;
+    }
+    #jobsoppo{
+      background-color: rgb(247, 72, 9);
+    }
+    #jobs {
+      width: 100%; 
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-left: 128px;
+        max-width:1000px;
+    }
+    .job-disp{
+      display: flex;
+      flex-direction: column;
+    }
+    .job-role {
+      color  :rgb(247, 72, 9) ;
+      margin-top: 0px;
+      font-size: 1.25em;
+    }
+    .apply {
+        background-color: rgb(0, 255, 21); 
+        color: #000000;
+        font-size: 1em;
+        padding: 2px;
+        padding: right 2px; 
+       
+    }
+    #footer{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: gray;
+      padding-bottom: 8px;
+      padding-top:8px; 
+      margin-top: 24px;
+      margin-bottom: 0px;
+ }
+ .footerElement {
+   margin-right: 16px;
+   color: white;
+ }
+ #job-table{
+  width: 100%;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+#job-table tr:nth-child(odd){
+    color:darksalmon;
+    text-align: center;
+}
+.rows{
+  border: 1px solid gray;
+  padding: 8px;
+  text-align: center;
+
+}
+#head-rows{
+  border:1px solid chartreuse;
+  background-color: red;
+  padding: 8px;
+  text-align: center;
+}
+/* small device  tablet*/
+@media screen and (min-width:576px){
+  html{
+    font-size: 16px;
+  }
+  #icon{
+    display: none;
+  }
+  #logo{
+    display: block;    
+  }
+  #discription {
+    font-size: 1.25em;
+    padding-right: 8px;
+  }}
+/* medium device  laptop*/
+@media screen and (min-width:768px){
+  h1 {
+    font-size: 2em;
+  }
+  #about {
+    display: flex;
+    flex-direction: row;
+      max-width: 800px;
+  }
+  #discription {
+    width: 50%;
+    padding-right: 8px;
+  }
+  #team {
+    width: 50%;
+   }
+  #teamimg {
+    height: 324px;
+    width: 100%;
+      padding-top: 15px;
+      object-fit: cover;
+    }
+#jobs{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  padding-left: 128px;
+}
+    .apply{
+       margin-bottom: 8px;
+       padding-bottom: 0px;
+       margin-top: 8px;
+       padding-top: 16px;
+    }
+}
+/*large device  laptop*/
+@media screen and (min-width:992px){
+
+  
+}
+/* body{ 
+  padding: 0;
+  margin:8px ;
+  font-family: 'Roboto', sans-serif;
+  font-size: 700;
+  font-weight: 700;
+  text-align:justify;
+}
+.bootcamponline{
+       display:flex;
+       
+}
+.bootimg{
+  width: 50%;
+}
+.bootcamp{
+  margin: 16px;
+  background-color: rgb(247, 72, 9);
+  padding-left: 4px;
+  padding-bottom: 64px;
+  padding-right: 4px;
+  width: 50%;
+  border-radius: 32px; 
+}
+.coursetest{
+  padding: 16px 16px 16px 16px;
+  width: 50%;
+}
+.bootcampimg {
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right:16px ;
+  padding-bottom: 8px;
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+}*/
+#application,input,select,textarea{
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.25em;
+  padding: 8px;
+  border-radius: 5px;
+  border: 5px solid rebeccapurple;
+}
+#form{
+  padding: 4px;
+  font-size: 1.5em;
+  margin-top: 4px;
+}
+.form-group{
+   margin: 16px;
+}
+.form-group textarea{
+  width: 80%;
+}
+.form-group input[type="checkbox"]{
+  width: 16px ;
+  height: 16px;
+}
+.form-group input[type="submit"]{
+  background-color: chartreuse;
+  color:#f9f9f9;
+  font-weight: 500;
+  padding: 16px 16px 16px 16px;
+}
+*/
